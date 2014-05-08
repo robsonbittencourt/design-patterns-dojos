@@ -1,7 +1,7 @@
 dojo-design-patterns-decorator
 ==============================
 
-![MIT](https://octodex.github.com/images/kimonotocat.png)
+![MIT](http://i59.tinypic.com/10h847b.png)
 
 **Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/2014**
 
@@ -11,7 +11,7 @@ Decorator ou wrapper, é um padrão de projeto de software que permite adicionar
 
 ## Diagrama
 
-![MIT](http://i60.tinypic.com/4uyz6c.png)
+![MIT](http://i58.tinypic.com/2zqc7k7.png)
 
 ### Intenção
 * Acrescentar responsabilidades a um objeto dinamicamente
@@ -23,11 +23,11 @@ Decorator ou wrapper, é um padrão de projeto de software que permite adicionar
 
 ### Consequências
 * Mais flexibilidade do que herança
-** Adição ou remoção de responsabilidades em tempo de execução
-** Adição da mesma propriedade mais de uma vez
+* Adição ou remoção de responsabilidades em tempo de execução
+* Adição da mesma propriedade mais de uma vez
 * Evita o excesso de funcionalidades nas classes
 * Decorator e seu componente não são idênticos
-** Comparações tornam-se mais complexas
+* Comparações tornam-se mais complexas
 * Resulta em um design que tem vários pequenos objetos, todos parecidos
 
 ### Aplicabilidade
