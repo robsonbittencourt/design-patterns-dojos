@@ -23,11 +23,11 @@ Decorator ou wrapper, é um padrão de projeto de software que permite adicionar
 
 ### Consequências
 * Mais flexibilidade do que herança
-** Adição ou remoção de responsabilidades em tempo de execução
-** Adição da mesma propriedade mais de uma vez
+* Adição ou remoção de responsabilidades em tempo de execução
+* Adição da mesma propriedade mais de uma vez
 * Evita o excesso de funcionalidades nas classes
 * Decorator e seu componente não são idênticos
-** Comparações tornam-se mais complexas
+* Comparações tornam-se mais complexas
 * Resulta em um design que tem vários pequenos objetos, todos parecidos
 
 ### Aplicabilidade
