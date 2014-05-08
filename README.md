@@ -1,7 +1,7 @@
 dojo-design-patterns-decorator
 ==============================
 
-![MIT](http://i61.tinypic.com/14jrdqt.png)
+![MIT](http://i59.tinypic.com/10h847b.png)
 
 **Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/2014**
 
