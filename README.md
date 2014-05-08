@@ -1,13 +1,17 @@
 dojo-design-patterns-decorator
 ==============================
 
-(https://octodex.github.com/images/kimonotocat.png)
+![MIT](https://octodex.github.com/images/kimonotocat.png)
 
-Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/2014
+**Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/2014**
 
 ## Decorator
 
-'''Decorator''' ou '''wrapper''', é um padrão de projeto de software que permite adicionar um comportamento a um objeto já existente em tempo de execução, ou seja, agrega dinamicamente responsabilidades adicionais a um objeto.
+Decorator ou wrapper, é um padrão de projeto de software que permite adicionar um comportamento a um objeto já existente em tempo de execução, ou seja, agrega dinamicamente responsabilidades adicionais a um objeto.
+
+## Diagrama
+
+![MIT](http://i60.tinypic.com/4uyz6c.png)
 
 ### Intenção
 * Acrescentar responsabilidades a um objeto dinamicamente
@@ -31,6 +35,15 @@ Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/20
 * Evitar a explosão de subclasses para prover todas as combinações de responsabilidades
 
 ### Padrões relacionados
-* [[Adapter]]: Decorator muda comportamento; Adapter muda interface
-* [[Composite]]: Pode ser visto como um composite com um único componente; porém, não tem intenção de agregar objetos
-* [[Strategy]]: Decorator envolve o objeto; Strategy muda o funcionamento interno
+* Adapter: Decorator muda comportamento; Adapter muda interface
+* Composite: Pode ser visto como um composite com um único componente; porém, não tem intenção de agregar objetos
+* Strategy: Decorator envolve o objeto; Strategy muda o funcionamento interno
+ 
+### Fontes
+
+1. https://www.youtube.com/watch?v=j40kRwSm4VE&index=12&list=PLF206E906175C7E07
+2. https://www.youtube.com/watch?v=__-rstffCLs
+3. http://www.newthinktank.com/2012/09/decorator-design-pattern-tutorial/
+4. http://www.newthinktank.com/2013/02/code-refactoring-16/
+5. http://en.wikipedia.org/wiki/Decorator_pattern
+
