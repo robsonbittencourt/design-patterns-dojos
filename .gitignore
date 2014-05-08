@@ -1,7 +1,5 @@
-# Arquivos eclipse
-.project
-.settings
-
 #Arquivos .class
 bin/
 
+.DS_Store
+exemplo/.DS_Store
