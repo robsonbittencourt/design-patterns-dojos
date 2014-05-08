@@ -9,7 +9,9 @@ dojo-design-patterns-decorator
 
 Decorator ou wrapper, é um padrão de projeto de software que permite adicionar um comportamento a um objeto já existente em tempo de execução, ou seja, agrega dinamicamente responsabilidades adicionais a um objeto.
 
-![MIT](https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&docid=HFWb1hmCYiP9IM&tbnid=pmsKm_jGYOQ10M:&ved=0CAUQjRw&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDecorator_pattern&ei=SQ9rU6bTG4r68AHJlYHwDw&bvm=bv.66330100,d.aWw&psig=AFQjCNEsxYwxB_79tnqM23E1VScvqBg4GQ&ust=1399611590380746)
+## Diagrama
+
+![MIT](http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/400px-Decorator_UML_class_diagram.svg.png)
 
 ### Intenção
 * Acrescentar responsabilidades a um objeto dinamicamente
