@@ -6,7 +6,7 @@ public class CorteBasico implements TratamentoDeCabelo {
 
 	@Override
 	public String getDescricao() {
-		return "Corta o cabelo";
+		return "\nCorta o cabelo";
 	}
 
 	@Override
