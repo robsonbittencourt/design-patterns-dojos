@@ -1,7 +1,7 @@
 dojo-design-patterns-decorator
 ==============================
 
-![MIT](https://octodex.github.com/images/kimonotocat.png)
+![MIT](http://i62.tinypic.com/k01w0l.png)
 
 **Código do Dojo de Design Patterns (Decorator) realizado na uMov.me dia 08/05/2014**
 
