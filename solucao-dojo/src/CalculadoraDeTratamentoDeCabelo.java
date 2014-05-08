@@ -12,25 +12,25 @@ public class CalculadoraDeTratamentoDeCabelo {
      
     public String getDescricao() {
         StringBuilder sb = new StringBuilder();
-    	
+        
+        sb.append("\nCorta o cabelo");
     	for (String opcao : opcoes) {
 		    if(opcao.equals("Permanente")){
-		    	sb.append("\nAdiciona química e coloca rolos nos cabelos");
+		    	sb.append("\nAdiciona quimica e coloca rolos nos cabelos");
 		    	continue;
 	        } 
 		    if(opcao.equals("Pintura")){
 		    	sb.append("\nPinta o cabelo com uma determinada cor");
 		    	continue;
 		    }
-		    
-		    sb.append("\nCorta o cabelo");
+		   
 		}
 
 	    return sb.toString();
     }
  
     public double getCusto() {
-    	double custo = 0.0;
+    	double custo = 10.0;
     	
     	for (String opcao : opcoes) {
 		    if(opcao.equals("Permanente")){
@@ -41,8 +41,6 @@ public class CalculadoraDeTratamentoDeCabelo {
 		    	custo += 20.00;
 		    	continue;
 		    }
-		    
-		    custo += 10.00;
 		}
 
 	    return custo;

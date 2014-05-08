@@ -12,7 +12,7 @@ public class Permanente extends TratamentoDeCabeloDecorator {
      
 	@Override
     public String getDescricao() {
-        return tratamentoDeCabelo.getDescricao() + "\nAdiciona química e coloca rolos nos cabelos";
+        return tratamentoDeCabelo.getDescricao() + "\nAdiciona quimica e coloca rolos nos cabelos";
     }
  
 	@Override
