@@ -38,3 +38,12 @@ Decorator ou wrapper, é um padrão de projeto de software que permite adicionar
 * Adapter: Decorator muda comportamento; Adapter muda interface
 * Composite: Pode ser visto como um composite com um único componente; porém, não tem intenção de agregar objetos
 * Strategy: Decorator envolve o objeto; Strategy muda o funcionamento interno
+ 
+### Fontes
+
+1. https://www.youtube.com/watch?v=j40kRwSm4VE&index=12&list=PLF206E906175C7E07
+2. https://www.youtube.com/watch?v=__-rstffCLs
+3. http://www.newthinktank.com/2012/09/decorator-design-pattern-tutorial/
+4. http://www.newthinktank.com/2013/02/code-refactoring-16/
+5. http://en.wikipedia.org/wiki/Decorator_pattern
+
