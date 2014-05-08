@@ -1,4 +1,4 @@
-dojo-design-patterns-decorator
+->dojo-design-patterns-decorator<-
 ==============================
 
 ![MIT](https://octodex.github.com/images/kimonotocat.png)
