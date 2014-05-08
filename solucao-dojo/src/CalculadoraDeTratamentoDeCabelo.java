@@ -2,9 +2,13 @@ package src;
 
 import java.util.List;
 
+import br.com.dojo.model.Corte;
+import br.com.dojo.model.Servico;
+
 public class CalculadoraDeTratamentoDeCabelo {
 	
 	private List<String> opcoes;
+	private List<Servico> servicos; 
 	
 	public CalculadoraDeTratamentoDeCabelo(List<String> opcoes){
 		this.opcoes = opcoes;
@@ -30,7 +34,8 @@ public class CalculadoraDeTratamentoDeCabelo {
     }
  
     public double getCusto() {
-    	double custo = 10.0;
+    	Corte corte = new Corte();
+    	double custo = corte.getCusto();
     	
     	for (String opcao : opcoes) {
 		    if(opcao.equals("Permanente")){
