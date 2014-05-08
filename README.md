@@ -11,7 +11,7 @@ Decorator ou wrapper, é um padrão de projeto de software que permite adicionar
 
 ## Diagrama
 
-![MIT](http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/400px-Decorator_UML_class_diagram.svg.png)
+![MIT](http://i60.tinypic.com/4uyz6c.png)
 
 ### Intenção
 * Acrescentar responsabilidades a um objeto dinamicamente
