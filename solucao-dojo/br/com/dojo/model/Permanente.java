@@ -11,4 +11,9 @@ public class Permanente extends ServicoDecorador {
 		return super.getCusto()+75.0;
 	}
 
+	@Override
+	public String getDescricao() {
+		return super.getDescricao() + "\nAdiciona quimica e coloca rolos nos cabelos";
+	}
+
 }

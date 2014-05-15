@@ -1,78 +1,73 @@
 package test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import java.util.Arrays;
-import java.util.List;
-
+import org.junit.Before;
 import org.junit.Test;
 
-import src.CalculadoraDeTratamentoDeCabelo;
+import br.com.dojo.model.Corte;
+import br.com.dojo.model.Permanente;
+import br.com.dojo.model.Pintura;
+import br.com.dojo.model.Servico;
 
 public class CalculadoraDeTratamentoDeCabeloTest {
 	
+	private Servico servico;
+	
+	@Before
+	public void setUp() {
+		servico = new Corte();
+	}
+	
 	@Test
 	public void deveRetornarDescricaoDeCorteDeCabeloSempre() {
-		List<String> opcoes = Arrays.asList();
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
-		
-		assertEquals("\nCorta o cabelo", calculadora.getDescricao());
+		assertEquals("\nCorta o cabelo", servico.getDescricao());
 	}
 	
 	@Test
 	public void deveRetornarDescricaoDePermanenteQuandoPermanenteForEscolhidoEDescricaoForSolicitada() {
-		List<String> opcoes = Arrays.asList("Permanente");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
-		
-		assertEquals("\nCorta o cabelo\nAdiciona quimica e coloca rolos nos cabelos", calculadora.getDescricao());
+		servico = new Permanente(servico);
+		assertEquals("\nCorta o cabelo\nAdiciona quimica e coloca rolos nos cabelos", servico.getDescricao());
 	}
 	
 	@Test
 	public void deveRetornarDescricaoDePinturaQuandoPinturaForEscolhidoEDescricaoForSolicitada() {
-		List<String> opcoes = Arrays.asList("Pintura");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
-		
-		assertEquals("\nCorta o cabelo\nPinta o cabelo com uma determinada cor", calculadora.getDescricao());
+		servico = new Pintura(servico);
+		assertEquals("\nCorta o cabelo\nPinta o cabelo com uma determinada cor", servico.getDescricao());
 	}
 	
 	@Test
 	public void deveRetornarDescricaoDeTodosTratamentosDeCabeloQuandoTodosForemEscolhidosEDescricaoForSolicitada() {
-		List<String> opcoes = Arrays.asList("Permanente", "Pintura");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
-		
-		assertEquals("\nCorta o cabelo\nAdiciona quimica e coloca rolos nos cabelos\nPinta o cabelo com uma determinada cor", calculadora.getDescricao());
+		servico = new Permanente(servico);
+		servico = new Pintura(servico);
+		assertEquals("\nCorta o cabelo\nAdiciona quimica e coloca rolos nos cabelos\nPinta o cabelo com uma determinada cor", servico.getDescricao());
 	}
 	
 	@Test
 	public void deveRetornarCustoDeCorteDeCabeloSempre() {
-		List<String> opcoes = Arrays.asList();
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
-		
-		assertEquals(10.00, calculadora.getCusto(), 0.0);
+		assertEquals(10.00, servico.getCusto(), 0.0);
 	}
 	
 	@Test
 	public void deveRetornarCustoDePermanenteQuandoPermanenteForEscolhidoECustoForSolicitado() {
-		List<String> opcoes = Arrays.asList("Permanente");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
+		servico = new Permanente(servico);
 		
-		assertEquals(85.00, calculadora.getCusto(), 0.0);
+		assertEquals(85.00, servico.getCusto(), 0.0);
 	}
 	
 	@Test
 	public void deveRetornarCustoDePinturaQuandoPinturaForEscolhidoECustoForSolicitado() {
-		List<String> opcoes = Arrays.asList("Pintura");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
+		servico = new Pintura(servico);
 		
-		assertEquals(30.00, calculadora.getCusto(), 0.0);
+		assertEquals(30.00, servico.getCusto(), 0.0);
 	}
 	
 	@Test
 	public void deveRetornarCustoDeTodosTratamentosDeCabeloQuandoTodosForemEscolhidosECustoForSolicitado() {
-		List<String> opcoes = Arrays.asList("Permanente", "Pintura");
-		CalculadoraDeTratamentoDeCabelo calculadora = new CalculadoraDeTratamentoDeCabelo(opcoes);
+		servico = new Permanente(servico);
+		servico = new Pintura(servico);
 		
-		assertEquals(105.00, calculadora.getCusto(), 0.0);
+		assertEquals(105.00, servico.getCusto(), 0.0);
 	}
 	
 }

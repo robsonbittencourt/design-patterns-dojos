@@ -6,4 +6,11 @@ public class Corte implements Servico {
 		return 10.0;
 	}
 
+	@Override
+	public String getDescricao() {
+		return "\nCorta o cabelo";
+	}
+	
+	
+
 }
