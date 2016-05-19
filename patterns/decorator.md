@@ -3,7 +3,7 @@ Decorator
 
 ![MIT](http://i59.tinypic.com/10h847b.png)
 
-[Código](src/main/java/decorator/)
+[Código](https://github.com/robsonbittencourt/design-patterns-dojos/tree/master/src/main/java/decorator)
 
 ## Decorator
 
