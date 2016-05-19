@@ -8,4 +8,4 @@ Sinta-se a vontade para contribuir com novos problemas envolvendo Design Pattern
 ###Lista de Design Patterns que já foram realizados Dojos:
 
 * [Decorator](patterns/decorator.md) - *Realizado na uMov.me em 15/05/2014*
-* [Decorator](patterns/chain-of-responsability.md) - *Realizado na CWI em 19/05/2016*
+* [Chain of Responsability](patterns/chain-of-responsability.md) - *Realizado na CWI em 19/05/2016*
