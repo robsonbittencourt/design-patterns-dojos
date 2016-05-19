@@ -1,9 +1,9 @@
-package run;
+package decorator.exemplo.cliente;
 
-import componente.Pizza;
-import componente_concreto.PlainPizza;
-import decorator_concreto.Mozzarella;
-import decorator_concreto.TomatoSauce;
+import decorator.exemplo.componente.Pizza;
+import decorator.exemplo.componente.PlainPizza;
+import decorator.exemplo.decorador.Mozzarella;
+import decorator.exemplo.decorador.TomatoSauce;
 
 public class PizzaMaker {
 

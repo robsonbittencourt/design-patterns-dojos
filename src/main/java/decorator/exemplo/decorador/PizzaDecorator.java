@@ -1,6 +1,6 @@
-package decorator;
+package decorator.exemplo.decorador;
 
-import componente.Pizza;
+import decorator.exemplo.componente.Pizza;
 
 public abstract class PizzaDecorator implements Pizza {
 

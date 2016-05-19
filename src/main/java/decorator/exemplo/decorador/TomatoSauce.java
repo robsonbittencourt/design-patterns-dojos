@@ -1,8 +1,6 @@
-package decorator_concreto;
+package decorator.exemplo.decorador;
 
-import componente.Pizza;
-
-import decorator.PizzaDecorator;
+import decorator.exemplo.componente.Pizza;
 
 public class TomatoSauce extends PizzaDecorator {
 

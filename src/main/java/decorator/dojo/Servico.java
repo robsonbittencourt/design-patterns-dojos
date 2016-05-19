@@ -1,8 +1,9 @@
-package br.com.dojo.model;
+package decorator.dojo;
 
 public interface Servico {
 
 	Double getCusto();
+
 	String getDescricao();
-	
+
 }

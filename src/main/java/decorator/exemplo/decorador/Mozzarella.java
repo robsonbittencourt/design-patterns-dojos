@@ -1,7 +1,6 @@
-package decorator_concreto;
+package decorator.exemplo.decorador;
 
-import componente.Pizza;
-import decorator.PizzaDecorator;
+import decorator.exemplo.componente.Pizza;
 
 public class Mozzarella extends PizzaDecorator {
 
@@ -10,7 +9,7 @@ public class Mozzarella extends PizzaDecorator {
 		System.out.println("Adding Dough");
 		System.out.println("Adding Moz");
 	}
-	
+
 	public String getDescription() {
 		return tempPizza.getDescription() + ", mozzarella";
 	}

@@ -1,4 +1,4 @@
-package br.com.dojo.model;
+package decorator.dojo;
 
 public class Corte implements Servico {
 
@@ -10,7 +10,5 @@ public class Corte implements Servico {
 	public String getDescricao() {
 		return "\nCorta o cabelo";
 	}
-	
-	
 
 }

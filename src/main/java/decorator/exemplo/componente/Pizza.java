@@ -1,4 +1,4 @@
-package componente;
+package decorator.exemplo.componente;
 
 public interface Pizza {
 
