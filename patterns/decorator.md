@@ -3,6 +3,8 @@ Decorator
 
 ![MIT](http://i59.tinypic.com/10h847b.png)
 
+[Código](src/main/java/decorator/)
+
 ## Decorator
 
 Decorator ou wrapper, é um padrão de projeto de software que permite adicionar um comportamento a um objeto já existente em tempo de execução, ou seja, agrega dinamicamente responsabilidades adicionais a um objeto.
