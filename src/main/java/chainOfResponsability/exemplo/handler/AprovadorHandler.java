@@ -12,9 +12,9 @@ public abstract class AprovadorHandler {
 		}
 	}
 
-	abstract protected boolean podeAutorizar(double valor);
+	protected abstract boolean podeAutorizar(double valor);
 
-	abstract protected void liberaRequisicao();
+	protected abstract void liberaRequisicao();
 
 	public void setProximoHandler(AprovadorHandler proximoHandler) {
 		this.proximoHandler = proximoHandler;
